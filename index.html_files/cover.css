@@ -1,0 +1,182 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  font-color: #E7C2FF;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #E7C2FF;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #E7C2FF;
+  border: .05rem solid #E7C2FF;
+  background-color: #E7C2FF;
+  font-color: #E7C2FF;
+}
+
+.botton{
+  color: #E7C2FF;
+  position: relative;  
+  top: 14rem;
+  left: 27rem;
+}
+.botton1{
+  color: #E7C2FF;
+  
+  position: relative;  
+  top: 15rem;
+  left: 27rem;
+}
+.botton2{
+  color: #E7C2FF;
+  
+  position: relative;  
+  top: 16rem;
+  left: 27rem;
+}
+.botton3{
+  color: #E7C2FF;
+  
+  position: relative;  
+  top: 17rem;
+  left: 27rem;
+}
+.botton4{
+  color: #E7C2FF;
+  
+  position: relative;  
+  top: 18rem;
+  left: 27rem;
+}
+
+
+.btn-sm{
+  background-color: #E7C2FF;
+  color: white;
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+    background-image: url("https://i.pinimg.com/originals/ee/c0/3b/eec03b5bae01ed151ff07cdc1a0322e3.jpg");
+    background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #E7C2FF;
+
+}
+
+.cover-heading{
+  position: relative;  
+  top: -1rem;
+}
+
+.lead{
+  color: #E7C2FF;
+  position: relative;  
+  left: 2rem;
+  top: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+.cover-container{
+  position: relative; 
+  top: 8rem; 
+  left: -28rem;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+.masthead-brand{
+  font-size: 20px;
+}
+
+.masthead-brand{
+  position: relative; 
+  top: -8rem; 
+  left: 0rem;
+}
+.masthead-brand {
+  margin-bottom: 2rem;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #E9684F;
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+  position: relative; 
+  right: -55rem; 
+  top: -8rem; 
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
